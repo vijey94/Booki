@@ -142,32 +142,48 @@
   border: solid 0.5px gray;
 }
 
-.global-wrapper {
-  display: flex;
-  align-items: center;
-}
-
-.hébergement-wrapper {
-  flex: 2;
-  margin-right: 20px;
-  background-color: blue;
-  padding: 30px;
-}
-
-.populaire-wrapper {
-  flex: 1;
-  background-color: green;
-}
-
 .hotel-wrapper {
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+.hotel {
+  width: 1000px;
+  height: 520px;
+  display: flex;
+  justify-content: center;
+  border: black solid 2px;
+  border-radius: 15%;
+  overflow: hidden;
 }
 
-.hotel-item {
-  margin-right: 20px;
-  width: 30%;
+.hotel-image-item {
+  flex: 1;
+  height: auto;
+  width: 100%;
+}
+
+.hotel-information {
+  flex: 2;
+  background-color: #b0c4de;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.description-hotel {
+  text-align: justify;
+}
+.hotel-wwrapper-star {
+  display: flex;
+}
+
+.hotel-star {
+  width: 30px !important;
 }
 
 footer {
@@ -181,6 +197,7 @@ footer {
 .apropos,
 .noshebergements {
   flex-grow: 1;
+  text-decoration: none;
 }
 
 .assistance {
@@ -197,4 +214,8 @@ footer li {
 
 footer > div > ul {
   line-height: 2;
+}
+
+a.nounderline {
+  text-decoration: none;
 }
