@@ -1,3 +1,2 @@
 # Booki
-
-C:\Users\vijay\Desktop\Maquette\Screenshot.png
+Screenshot.png
